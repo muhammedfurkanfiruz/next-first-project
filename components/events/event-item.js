@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import classes from './event-item.module.css'
 
 function EventItem(props) {
     const {title, image, date, location, id} = props;
@@ -12,11 +13,11 @@ function EventItem(props) {
     const formattedAdress = location.replace(',', '\n')
     const exploreLink = `/events${id}`
   return (
-    <li>
+    <li className={classes.item}>
     
     <img src={'/' + image} alt = {title} />
 
-    <div>
+    <div className= {classes.content}>
         <div>
             <h2>{title}</h2>
         </div>
