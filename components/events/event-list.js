@@ -1,11 +1,12 @@
 import EventItem from "./event-item";
 import React from "react";
+import classes from './event.list.module.css'
 
 function EventList(props) {
   const { items } = props; //getting props with object destructing..
 
   return (
-    <ul>
+    <ul className={classes.list}>
       {items.map((item) => (
       
           <EventItem  

@@ -4,33 +4,35 @@
     border-radius: 8px;
     overflow: hidden;
     background-color : white; 
-    margin: 1 rem;
+    margin: 1rem;
     display:flex;
     flex-direction: column;
-    gap: 1 rem;
+    gap: 1rem;
 }
 
 
 .item img {
     width:100%;
     object-fit:cover;
-    height: 10 rem;
+    height: 10rem;
 }
 
 .content {
     width: 100%;
-    padding: 0 1 rem;
+    padding: 0 1rem;
     text-align : center;
+
 }
 
 .content h2 {
-    margin : 0.5 rem 0 ;
+    margin : 0.5rem 0 ;
 }
 .date,
 .address {
   display: flex;
   gap: 0.5rem;
   align-items: center;
+
 }
 
 .date svg,
