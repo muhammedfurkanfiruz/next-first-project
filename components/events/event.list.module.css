@@ -1,9 +1,13 @@
 .list{
 
-    width:80%;
+    width:90%;
     max-width: 40 rem;
-    margin: 5r rem auto;
+    margin: auto;
+    padding:3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
     
-    border: 3px solid orange;
     
 }
